@@ -4,7 +4,8 @@ import json
 import os
 from dotenv import load_dotenv  # Load .env file
 from mistralai.client import MistralClient
-from mistralai.models.chat_completion import ChatMessage
+from mistralai.models import ChatMessage
+
 
 # ✅ Load API key from .env
 load_dotenv(key.env)  # Load environment variables from .env
